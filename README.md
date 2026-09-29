@@ -1,4 +1,5 @@
 
+
 # A2R3 Blueprint
 
 **An Omarchy theme drawn straight from an engineering blueprint.** Deep navy, pure white text, one red accent.
@@ -10,10 +11,7 @@
 
 <!-- ![A2R3 Blueprint preview](preview.png) -->
 
-<img width="1680" height="1029" alt="monochrome" src="https://github.com/user-attachments/assets/84931f83-3d98-4e52-9719-a8fbfaa6ddaf" />
-
-
-
+<img width="1671" height="1050" alt="a2r3" src="https://github.com/user-attachments/assets/1987b7a0-e1a2-4101-90c1-ac49065d6d80" />
 
 ## Why this exists
 
