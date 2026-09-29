@@ -1,3 +1,4 @@
+
 # A2R3 Blueprint
 
 **An Omarchy theme drawn straight from an engineering blueprint.** Deep navy, pure white text, one red accent.
@@ -7,9 +8,12 @@
 ![Text](https://img.shields.io/badge/text-%23ffffff-ffffff?style=for-the-badge&labelColor=001127)
 ![Accent](https://img.shields.io/badge/accent-%23e0283c-e0283c?style=for-the-badge)
 
-![A2R3 Blueprint preview](preview.png)
+<!-- ![A2R3 Blueprint preview](preview.png) -->
 
-> Small. Smart. Open source.
+<img width="1680" height="1029" alt="monochrome" src="https://github.com/user-attachments/assets/84931f83-3d98-4e52-9719-a8fbfaa6ddaf" />
+
+
+
 
 ## Why this exists
 
