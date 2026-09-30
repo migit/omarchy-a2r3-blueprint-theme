@@ -10,8 +10,20 @@
 ![Accent](https://img.shields.io/badge/accent-%23e0283c-e0283c?style=for-the-badge)
 
 <!-- ![A2R3 Blueprint preview](preview.png) -->
+<table>
+  <tr>
+    <td><img width="100%" height="50%" alt="a2r3" src="https://github.com/user-attachments/assets/1987b7a0-e1a2-4101-90c1-ac49065d6d80" /></td>
+    <td><img width="100%" height="50%" alt="screenshot-2026-09-30_08-51-56" src="https://github.com/user-attachments/assets/09fc3b6c-b87a-40fd-83f6-c698576f827f" /></td>
+  </tr>
 
-<img width="1671" height="1050" alt="a2r3" src="https://github.com/user-attachments/assets/1987b7a0-e1a2-4101-90c1-ac49065d6d80" />
+   <tr>
+    <td><img width="100%" height="100%" alt="1-a2r3-blueprint" src="https://github.com/user-attachments/assets/f201550e-48e0-4962-a068-cd16b8a30c7a" />
+    
+</td>
+    <td><img width="100%" height="100%" alt="2-a2r3-blueprint" src="https://github.com/user-attachments/assets/e01f7b46-8c92-438a-858e-a2f6ec905ca7" /></td>
+  </tr>
+
+</table>
 
 ## Why this exists
 
