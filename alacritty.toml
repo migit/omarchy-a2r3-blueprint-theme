@@ -12,7 +12,7 @@ cursor = "#ffffff"
 
 [colors.search.matches]
 foreground = "#001127"
-background = "#f0c674"
+background = "#ffffff"
 
 [colors.search.focused_match]
 foreground = "#ffffff"
@@ -29,19 +29,22 @@ background = "#1c3d66"
 [colors.normal]
 black = "#0a2240"
 red = "#e0283c"
-green = "#4fd1a5"
-yellow = "#f0c674"
-blue = "#4a90d9"
-magenta = "#b58cf0"
-cyan = "#6fc3df"
+green = "#ffffff"
+yellow = "#ffffff"
+blue = "#ffffff"
+magenta = "#ffffff"
+cyan = "#ffffff"
 white = "#ffffff"
 
 [colors.bright]
 black = "#3f6390"
-red = "#ff5568"
-green = "#7ff0c8"
-yellow = "#ffd98a"
-blue = "#7ab8f5"
-magenta = "#cfa8ff"
-cyan = "#9fe0f2"
+red = "#ffffff"
+green = "#ffffff"
+yellow = "#ffffff"
+blue = "#ffffff"
+magenta = "#ffffff"
+cyan = "#ffffff"
 white = "#ffffff"
+
+[window]
+opacity = 0.75

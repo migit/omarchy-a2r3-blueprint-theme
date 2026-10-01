@@ -3,7 +3,8 @@ return {
     "folke/tokyonight.nvim",
     opts = {
       style = "night",
-      transparent = false,
+      transparent = true,
+      styles = { sidebars = "transparent", floats = "transparent" },
       on_colors = function(c)
         c.bg = "#001127"
         c.bg_dark = "#001127"
@@ -17,11 +18,11 @@ return {
         c.fg_gutter = "#3f6390"
         c.comment = "#8fa9c9"
         c.red = "#e0283c"
-        c.blue = "#4a90d9"
-        c.cyan = "#6fc3df"
-        c.green = "#4fd1a5"
-        c.yellow = "#f0c674"
-        c.magenta = "#b58cf0"
+        c.blue = "#ffffff"
+        c.cyan = "#ffffff"
+        c.green = "#ffffff"
+        c.yellow = "#ffffff"
+        c.magenta = "#ffffff"
       end,
     },
   },

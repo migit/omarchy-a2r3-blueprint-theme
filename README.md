@@ -1,5 +1,3 @@
-
-
 # A2R3 Blueprint
 
 **An Omarchy theme drawn straight from an engineering blueprint.** Deep navy, pure white text, one red accent.
@@ -9,25 +7,13 @@
 ![Text](https://img.shields.io/badge/text-%23ffffff-ffffff?style=for-the-badge&labelColor=001127)
 ![Accent](https://img.shields.io/badge/accent-%23e0283c-e0283c?style=for-the-badge)
 
-<!-- ![A2R3 Blueprint preview](preview.png) -->
-<table>
-  <tr>
-    <td><img width="100%" height="50%" alt="a2r3" src="https://github.com/user-attachments/assets/1987b7a0-e1a2-4101-90c1-ac49065d6d80" /></td>
-    <td><img width="100%" height="50%" alt="screenshot-2026-09-30_08-51-56" src="https://github.com/user-attachments/assets/09fc3b6c-b87a-40fd-83f6-c698576f827f" /></td>
-  </tr>
+![A2R3 Blueprint preview](preview.png)
 
-   <tr>
-    <td><img width="100%" height="100%" alt="1-a2r3-blueprint" src="https://github.com/user-attachments/assets/f201550e-48e0-4962-a068-cd16b8a30c7a" />
-    
-</td>
-    <td><img width="100%" height="100%" alt="2-a2r3-blueprint" src="https://github.com/user-attachments/assets/e01f7b46-8c92-438a-858e-a2f6ec905ca7" /></td>
-  </tr>
-
-</table>
+> Small. Smart. Open source.
 
 ## Why this exists
 
-Most dark themes are grey, or a little too colorful. This one is a rover blueprint: a navy sheet, crisp white linework, and a single red mark. The background color was sampled from the A2R3 (Autonomous Room Rover Robot) spec sheet, and the accent comes from the red **3** in its logo.
+Most dark themes are grey, or a little too colorful. This one is a rover blueprint: a navy sheet, crisp white linework, and a single red mark. The background color was sampled from the A2R3 (Autonomous Room Rover Robot) spec sheet, and the accent is the red from its logo.
 
 Terminals, shells and TUI apps use the same navy and white as the wallpaper, so text reads like drafting-table annotation and nothing distracts from the code.
 
@@ -57,7 +43,7 @@ omarchy-theme-set "a2r3-blueprint"
 | Selection  | `#1c3d66` |
 | Muted      | `#3f6390` |
 
-The 16-color ANSI palette keeps white in both the `white` and `bright white` slots, so default text in the shell and TUIs stays white. The remaining slots are cool blues plus soft green, amber and violet, used only where an app colors things itself, such as git status or btop graphs.
+The terminal palette is white-first: every ANSI color slot except red and the dim black slots is white, so shell and TUI text stays white. Red is kept for errors and the accent.
 
 ## What's themed
 
@@ -65,31 +51,47 @@ The 16-color ANSI palette keeps white in both the `white` and `bright white` slo
 - **TUI:** btop, Neovim (tokyonight, recolored to match)
 - **Desktop:** Hyprland borders, Hyprlock, Waybar, Walker, Mako, SwayOSD
 - **Browser:** Chromium
-- **Wallpaper:** the original A2R3 blueprint sheet, in `backgrounds/`
+- **Wallpapers:** five in `backgrounds/`: the full A2R3 blueprint sheet (2560x1080) plus four blueprint-grid and dot-grid wallpapers in 16:9 (3840x2160) and 21:9 (3440x1440). Cycle them with `Super + Ctrl + Space`.
 
-## Make it fully monochrome
+## Transparency
 
-Want everything white with no color at all? Run this in the theme folder:
+Terminals, shells and TUIs are set to 75% opacity. btop and Neovim draw no background of their own, so the terminal's transparency shows through.
 
-```bash
-cd ~/.config/omarchy/themes/a2r3-blueprint
-sed -i -E 's/(6fc3df|9fe0f2|4a90d9|7ab8f5|4fd1a5|7ff0c8|f0c674|ffd98a|b58cf0|cfa8ff|ff5568)/ffffff/gI' *.conf *.toml *.theme *.css *.lua
-omarchy-theme-set "a2r3-blueprint"
+To change the level, edit the opacity line in `alacritty.toml`, `kitty.conf` or `ghostty.conf` (`0.75` is the default, lower is more transparent).
+
+If your terminal doesn't pick it up, your own terminal config is overriding the theme. Set it there instead:
+
+| Terminal | Setting |
+| --- | --- |
+| Alacritty | `[window]` then `opacity = 0.75` |
+| Kitty | `background_opacity 0.75` |
+| Ghostty | `background-opacity = 0.75` |
+
+For transparency on every window, including browsers and GUI apps, add a Hyprland window rule to `~/.config/hypr/hyprland.conf`. Use the line that matches your Hyprland version:
+
+```ini
+# newer Hyprland
+windowrule = opacity 0.85 0.75, match:class .*
+
+# older Hyprland
+windowrulev2 = opacity 0.85 0.75, class:.*
 ```
+
+The first number is the opacity for the focused window and the second for unfocused windows.
 
 ## Repo layout
 
 ```text
 .
 ├── colors.toml        # palette Omarchy generates app themes from
-├── backgrounds/       # wallpaper(s)
+├── backgrounds/       # wallpapers (16:9 and 21:9)
 ├── preview.png        # 16:9 preview
 └── *.toml/.conf/.css  # per-app overrides
 ```
 
 ## Credits
 
-- Wallpaper: A2R3 blueprint concept sheet, AI-generated artwork.
+- Wallpaper 1: A2R3 blueprint sheet (orange-accent variant), AI-generated artwork, scaled to 2560x1080. Wallpapers 2 to 5 are generated grids released under the same license.
 - Built for [Omarchy](https://github.com/omacom/omarchy).
 
 ## License
