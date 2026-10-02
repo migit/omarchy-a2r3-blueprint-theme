@@ -9,7 +9,8 @@
 
 ![A2R3 Blueprint preview](preview.png)
 
-> Small. Smart. Open source.
+<img width="1920" height="1080" alt="preview" src="https://github.com/user-attachments/assets/ba367c53-f100-4d26-b5ca-a6c278c78ac5" />
+
 
 ## Why this exists
 
