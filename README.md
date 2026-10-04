@@ -1,6 +1,6 @@
 # A2R3 Blueprint
 
-**An Omarchy theme drawn straight from an engineering blueprint.** Deep navy, pure white text, one red accent.
+**An Omarchy theme drawn straight from my open source Mobile wheeled Robot project engineering blueprint.** Deep navy, pure white text, one red accent. I Use this theme as my daily driver for inspiration. Whoever feels inspired by Mobile Robot, knock yourself out grap the this and theme your Omarchy.
 
 ![Omarchy theme](https://img.shields.io/badge/Omarchy-theme-e0283c?style=for-the-badge)
 ![Background](https://img.shields.io/badge/background-%23001127-001127?style=for-the-badge)
