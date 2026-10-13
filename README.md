@@ -1,3 +1,5 @@
+<img width="100" height="100" alt="logo-a2r3-removebg-preview" src="https://github.com/user-attachments/assets/cb26fd02-edc3-499b-a372-0cf888c060f8" />
+
 # A2R3 Blueprint
 
 **An Omarchy theme drawn straight from my open source Mobile wheeled Robot project engineering blueprint.** Deep navy, pure white text, one red accent. I Use this theme as my daily driver for inspiration. Whoever feels inspired by Mobile Robot, knock yourself out grap the this and theme your Omarchy.
